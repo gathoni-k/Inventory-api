@@ -1,5 +1,6 @@
 ## An Inventory API
 
+An API for the inventory application exercise from the Odin project,, https://www.theodinproject.com/courses/nodejs/lessons/inventory-application
 ### Project Config
 
 To install dependencies
