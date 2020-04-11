@@ -194,7 +194,7 @@ Sample Response
 ### CREATE an item
 
 ```JavaScript
-    POST '/api/category/create/item'
+    POST '/api/item/create/item'
 ```
 Payload
 ```JavaScript
@@ -242,7 +242,7 @@ Sample Response
 ```JavaScript
     {
         success: true,
-        message: 'Category updated successfully',
+        message: 'Item updated successfully',
         category: {
                 "_id": "5e921ecca09fc63066185a7d",
                 "name": "coke",
@@ -256,9 +256,9 @@ Sample Response
     }
 ```
 
-### Delete a category
+### Delete an item
 ```JavaScript
-    PUT '/api/category/delete/categoryId'
+    PUT '/api/category/delete/:itemId'
 ```
 Sample Response
 
